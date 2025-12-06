@@ -74,10 +74,10 @@ function About() {
             <div className="card-body">
               <h5 className="card-title">Facts About Me</h5>
               <ul className="list-unstyled">
-                <li><strong>Name:</strong> James Kiven Collantes Burce</li>
-                <li><strong>Location:</strong> Banga, Tinambac, Camarines Sur</li>
-                <li><strong>Email:</strong> jameskivenburce0@gmail.com</li>
-                <li><strong>Interests:</strong> Traveling, Playing Sports, Music</li>
+                <li><strong>Full Name:</strong> James Kiven Collantes Burce</li>
+                <li><strong>Exact Location:</strong> Zone 1 Banga, Tinambac, Camarines Sur</li>
+                <li><strong>Official Email:</strong> jameskivenburce0@gmail.com</li>
+                <li><strong>Main Interests:</strong> Traveling, Playing Sports, Music</li>
               </ul>
             </div>
           </div>
@@ -107,7 +107,7 @@ function Contact() {
               </ul>
               <div className="mt-3">
                 <a 
-                  href="https://www.facebook.com/kivenmainacc" 
+                  href="https://www.facebook.com/uniquekib" 
                   className="btn btn-outline-primary me-2"
                   target="_blank"
                   rel="noopener noreferrer"
