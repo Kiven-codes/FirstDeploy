@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Snowfall from 'react-snowfall';
+
 
 // Main/Home Page
 function Home() {
@@ -156,6 +158,19 @@ export default function App() {
 
   return (
     <div className="d-flex flex-column min-vh-100">
+
+      {/* ❄️ Snowfall (added, nothing else changed) */}
+      <Snowfall
+        snowflakeCount={120}
+        style={{
+          position: 'fixed',
+          width: '100vw',
+          height: '100vh',
+          zIndex: 9999,
+          pointerEvents: 'none',
+        }}
+      />
+
       {/* Navigation */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
